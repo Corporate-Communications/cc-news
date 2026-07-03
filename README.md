@@ -5,7 +5,7 @@ innhold + metadata, og lagrer i Convex. Kilder er plugbare moduler — nye
 kilder legges til med en liten config-fil.
 
 > ⚠️ Automatisert tilgang med en konto bak betalingsmur kan vaere i strid med
-> abonnementsvilkarene. Avklar med avtaleeier for produksjonsbruk. NRK er apen.
+> abonnementsvilkarene. Avklar med avtaleeier for produksjonsbruk. NRK er åpen.
 
 ## Oppsett
 ```bash
