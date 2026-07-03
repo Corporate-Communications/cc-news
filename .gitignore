@@ -1,0 +1,9 @@
+node_modules/
+# Innloggede sesjoner (cookies + tokens) — ALDRI commit
+sessions/
+session.json
+# Lokale testdumper av artikkelinnhold — kun for kapabilitetstest, ikke lagring
+out/
+*.log
+
+.env.local

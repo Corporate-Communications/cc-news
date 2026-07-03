@@ -1,0 +1,28 @@
+{
+  "name": "cc-news",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Intern mediovervaking: oppdager nye artikler via sitemap og henter fulltekst+metadata med innlogget sesjon.",
+  "scripts": {
+    "login": "tsx src/session.ts",
+    "sources": "tsx src/list-sources.ts",
+    "ingest": "tsx src/ingest.ts",
+    "podcast": "tsx src/podcast-ingest.ts",
+    "inspect:audio": "tsx src/podcast/inspect-audio.ts"
+  },
+  "dependencies": {
+    "convex": "^1.41.0",
+    "fast-xml-parser": "^5.9.1",
+    "playwright": "^1.49.0"
+  },
+  "overrides": {
+    "esbuild": "0.28.1",
+    "ws": "8.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
